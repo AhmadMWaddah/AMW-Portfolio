@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+body{
+	background: url('../Imgs/BodyBg.png')  center;
+	background-size: cover;
+	height: auto;
+	width: 1280px; 
+    font-size: 1.5rem;
+}
+#particles-js{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.ui.inverted.menu, .ui.inverted.segment{
+    background: rgba(27, 28, 29, 0.2);
+}
+
+.ui.primary.inverted.segment{
+    background: rgba(27, 28, 29, 0.7);
+}
+.ui.inverted.segment, .ui.primary.inverted.segment, 
+.ui.items > .item > .content > .header, 
+.ui.items > .item > .content > .description{
+    color: rgb(87, 201, 211);
+    text-align: justify;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item > a:not(.ui), .ui.header, .ui.inverted.segment > .ui.header{
+    color: rgb(87, 201, 211);
+}
+.ui.inverted.menu .dropdown.item:hover, 
+.ui.inverted.menu .link.item:hover, 
+.ui.inverted.menu a.item:hover, 
+.ui.link.inverted.menu .item:hover{
+    background: rgba(87, 201, 211, 0.1);
+    color: rgb(95, 211, 241);
+}
